@@ -1,19 +1,21 @@
 {
-  "enabledMcpjsonServers": ["Higgsfield"],
   "permissions": {
     "allow": [
-      "mcp__Higgsfield__generate_video",
-      "mcp__Higgsfield__generate_image",
-      "mcp__Higgsfield__generate_audio",
-      "mcp__Higgsfield__job_display",
-      "mcp__Higgsfield__job_status",
-      "mcp__Higgsfield__models_explore",
-      "mcp__Higgsfield__media_upload",
-      "mcp__Higgsfield__media_confirm",
-      "mcp__Higgsfield__media_import_url",
-      "mcp__Higgsfield__media_upload_widget",
-      "mcp__Higgsfield__show_generations",
-      "mcp__Higgsfield__virality_predictor"
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__show_marketing_studio",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__generate_video",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__generate_image",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__generate_audio",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__job_display",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__job_status",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__models_explore",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__media_upload",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__media_confirm",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__media_import_url",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__media_upload_widget",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__show_generations",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__virality_predictor",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__motion_control",
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__show_characters"
     ]
   }
 }
