@@ -2,21 +2,8 @@
   "permissions": {
     "defaultMode": "bypassPermissions",
     "allow": [
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__show_marketing_studio",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__generate_video",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__generate_image",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__generate_audio",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__job_display",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__job_status",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__models_explore",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__media_upload",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__media_confirm",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__media_import_url",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__media_upload_widget",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__show_generations",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__virality_predictor",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__motion_control",
-      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__show_characters"
+      "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__*",
+      "mcp__Higgsfield__*"
     ]
   }
 }
