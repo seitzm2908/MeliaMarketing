@@ -334,6 +334,28 @@ Schreib mir PROFI in die DMs. Ich melde mich persönlich.
 
 ---
 
+## GENERIERTE VIDEO-LINKS (Higgsfield seedance_2_0 — mit Markus-Seitz Charakter-Element)
+
+**Charakter-Element:** Markus-Seitz (ID: `9f691145-d1da-4586-9516-5791394c6399`)
+**Generiert:** 04.07.2026
+
+| # | Job-ID | Status | Download-URL |
+|---|--------|--------|--------------|
+| V01 | 391f8649 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153101_391f8649-9de9-411e-b54a-d3b50b6a875c.mp4 |
+| V02 | 35b96b30 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153647_35b96b30-e324-4638-aa98-328894535a4e.mp4 |
+| V03 | 728996c6 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153650_728996c6-9f63-4444-8293-cd9734b749f8.mp4 |
+| V04 | d742bbec | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_154xxx_d742bbec-a735-405e-b2a4-e5e3bbe47a69.mp4 |
+| V05 | a7dcdd67 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153654_a7dcdd67-2696-4d9f-bc01-2b11c7288692.mp4 |
+| V06 | a432c038 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153656_a432c038-77f9-489d-acb4-c92b5947068c.mp4 |
+| V07 | 90bd80ac | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153658_90bd80ac-9ebc-4f34-a804-68ec77a98652.mp4 |
+| V08 | 9a5a6021 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153909_9a5a6021-c673-493e-bfd5-c58b07d2f031.mp4 |
+| V09 | a5e5a3b7 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153937_a5e5a3b7-7470-4aff-b7f1-748e768ba4d0.mp4 |
+| V10 | 0e2c1e72 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_154004_0e2c1e72-9bec-4943-a974-183f0a2e43d7.mp4 |
+
+**Hinweis V04:** 2× NSFW-Filter ausgelöst (Corporate-Lobby-Prompts). Finaler Prompt: Markus sitzt am Schreibtisch, sieht in Geschäftsberichte, blickt dann ruhig-selbstsicher in die Kamera.
+
+---
+
 ## POSTING-PLAN SERIE 2
 
 | Woche | Dienstag | Freitag |
