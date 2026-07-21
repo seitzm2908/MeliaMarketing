@@ -344,7 +344,7 @@ Schreib mir PROFI in die DMs. Ich melde mich persönlich.
 | V01 | 391f8649 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153101_391f8649-9de9-411e-b54a-d3b50b6a875c.mp4 |
 | V02 | 35b96b30 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153647_35b96b30-e324-4638-aa98-328894535a4e.mp4 |
 | V03 | 728996c6 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153650_728996c6-9f63-4444-8293-cd9734b749f8.mp4 |
-| V04 | d742bbec | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_154xxx_d742bbec-a735-405e-b2a4-e5e3bbe47a69.mp4 |
+| V04 | ca9d5ae9 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_154039_ca9d5ae9-9174-496b-a0f1-62f9e4d1723c.mp4 |
 | V05 | a7dcdd67 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153654_a7dcdd67-2696-4d9f-bc01-2b11c7288692.mp4 |
 | V06 | a432c038 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153656_a432c038-77f9-489d-acb4-c92b5947068c.mp4 |
 | V07 | 90bd80ac | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_153658_90bd80ac-9ebc-4f34-a804-68ec77a98652.mp4 |
@@ -353,6 +353,19 @@ Schreib mir PROFI in die DMs. Ich melde mich persönlich.
 | V10 | 0e2c1e72 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260704_154004_0e2c1e72-9bec-4943-a974-183f0a2e43d7.mp4 |
 
 **Hinweis V04:** 2× NSFW-Filter ausgelöst (Corporate-Lobby-Prompts). Finaler Prompt: Markus sitzt am Schreibtisch, sieht in Geschäftsberichte, blickt dann ruhig-selbstsicher in die Kamera.
+
+---
+
+## GENERIERTE VIDEO-LINKS ERWEITERUNG V11–V16 (21.07.2026)
+
+| # | Thema | Job-ID | Status | Download-URL |
+|---|-------|--------|--------|--------------|
+| V11 | Onboarding / Erster Tag | 4ce58d68 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260721_190310_4ce58d68-b986-4559-97c8-3874132cd8b2.mp4 |
+| V12 | Mentor / Nicht Vorgesetzter | 01b865d0 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260721_190008_01b865d0-50ed-451f-8b58-ef9898bf6b98.mp4 |
+| V13 | Einwandbehandlung | efd61abe | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260721_190011_efd61abe-dd5c-4a93-82ff-f3cd933dfe9e.mp4 |
+| V14 | Work-Life / Deine Zeit | 38e10570 | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260721_190012_38e10570-9bfa-4452-b64d-f39fa26bb28c.mp4 |
+| V15 | Eigene Marke | f43ff9ed | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260721_190014_f43ff9ed-0a06-48b4-a193-429a0f500db1.mp4 |
+| V16 | Zukunft / In 3 Jahren | fc8aea0b | ✅ fertig | https://d8j0ntlcm91z4.cloudfront.net/user_3DbuqdsJ4A6Pntr6gqd56Pt3IVS/hf_20260721_190302_fc8aea0b-0c45-4789-b47d-e18c8bb49211.mp4 |
 
 ---
 
@@ -380,3 +393,207 @@ Schreib mir PROFI in die DMs. Ich melde mich persönlich.
 | 8 | „Er hat 12 Jahre bei einem klassischen Immobilienunternehmen gearbeitet." | Als er mir sagte, wie viel Provision er behalten hat, war ich überrascht. Nicht weil es wenig war — sondern weil er es für normal hielt. |
 | 9 | „Dein nächster Käufer kommt vielleicht aus Frankreich." | Mit iad bist du von Tag eins Teil eines internationalen Netzwerks. Grenzüberschreitende Deals — das ist Realität. |
 | 10 | „Ich führe dieses Gespräch gerne. Aber nur mit den Richtigen." | Ich suche keine Einsteiger. Ich suche erfahrene Makler, die wissen, was sie können — und bereit sind, das nächste Level zu gehen. |
+
+---
+
+# ERWEITERUNG SERIE 2 — VIDEOS 11–16
+
+---
+
+# VIDEO 11 — „Dein erster Tag bei iad — was wirklich passiert"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Dein erster Tag bei iad. Was erwartet dich wirklich?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Kein Sprung ins kalte Wasser. Persönlicher Mentor, alle Tools direkt verfügbar, strukturiertes Onboarding. Du bist von Tag eins produktiv — nicht allein.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „Dein erster Tag bei iad." | BOLD WEISS, groß |
+| 4–7 | „Was erwartet dich wirklich?" | Weiß |
+| 18–22 | „Mentor. Tools. Onboarding." | GOLD, Aufzählung |
+| 38–42 | „Von Tag eins produktiv." | BOLD WEISS |
+| 64–68 | „Schreib mir START in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Viele Makler fragen mich: Wie läuft der Wechsel zu iad ab?
+
+Hier die ehrliche Antwort:
+
+Du bekommst einen persönlichen Mentor — jemanden, der selbst den Weg gegangen ist. Alle digitalen Tools sind von Tag eins zugänglich. Ein strukturierter Onboarding-Prozess führt dich durch die ersten Wochen.
+
+Kein „Sink or swim". Kein Alleingang.
+
+Wenn du verstehen willst, wie ein Einstieg konkret aussieht: Schreib mir START in die DMs.
+
+**HASHTAGS:**
+#iadDeutschland #Immobilienmakler #MaklerWechsel #Onboarding #Mentor #Profi #Karriere #Selbstständig #ImmobilienKarriere #Netzwerk #MarkusSeitz #SelbstständigMitPlan #Immobilien #Start #Einstieg
+
+---
+
+# VIDEO 12 — „Nicht Vorgesetzter. Mentor."
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Bei iad hast du vom ersten Tag einen persönlichen Mentor."
+
+**VOICEOVER (ca. 10 Sek.):**
+Ich begleite neue Berater persönlich — nicht mit Frontaltraining, sondern mit echtem Erfahrungstransfer. Weil ich selbst genau diesen Weg gegangen bin.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „Nicht Vorgesetzter." | BOLD WEISS, groß |
+| 4–7 | „Mentor." | GOLD, sehr groß |
+| 18–22 | „Erfahrungstransfer statt Frontaltraining." | Weiß, kursiv |
+| 44–48 | „Weil ich selbst diesen Weg gegangen bin." | BOLD WEISS |
+| 64–68 | „Schreib mir MENTOR in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Bei klassischen Immobilienunternehmen gibt es Vorgesetzte.
+
+Bei iad gibt es Mentoren.
+
+Ich begleite erfahrene Makler, die zu meinem Team stoßen, persönlich. Kein Standard-Training — echter Erfahrungsaustausch, echte Gespräche, echte Unterstützung.
+
+Denn ich kenne die Fragen, die du hast. Ich hatte sie selbst.
+
+Wenn du wissen willst, wie das konkret aussieht: Schreib mir MENTOR in die DMs.
+
+**HASHTAGS:**
+#Mentor #iadDeutschland #Immobilienmakler #Coaching #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Netzwerk #MarkusSeitz #SelbstständigMitPlan #Immobilien #Erfahrung #Teamaufbau
+
+---
+
+# VIDEO 13 — „Ich kenne deinen Einwand"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Klingt zu gut, um wahr zu sein — oder?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Das höre ich oft. Deshalb kein Versprechen, kein Pitch, kein Druck. Nur ein offenes Gespräch — mit Zahlen, Fakten und echten Antworten auf echte Fragen.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „Klingt zu gut, um wahr zu sein?" | BOLD WEISS |
+| 18–22 | „Kein Pitch. Keine Versprechen." | Weiß |
+| 30–34 | „Zahlen. Fakten. Echte Antworten." | GOLD, Aufzählung |
+| 48–52 | „Das Gespräch entscheidet." | BOLD WEISS |
+| 64–68 | „Schreib mir FRAGE in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Ich verstehe den Gedanken.
+
+69 % Provision. 20.000 Berater. 525 Mio. € Umsatz. Klingt nach einem zu guten Pitch.
+
+Deshalb sage ich: Ruf mich einfach an. Oder schreib mir. Ich beantworte jede Frage, die du hast — offen und ohne Druck.
+
+Wer nichts zu verbergen hat, führt das Gespräch.
+
+Schreib mir FRAGE in die DMs.
+
+**HASHTAGS:**
+#iadDeutschland #Immobilienmakler #Profi #MaklerWechsel #Ehrlichkeit #Provision #Karriere #Selbstständig #ImmobilienKarriere #Netzwerk #MarkusSeitz #SelbstständigMitPlan #Immobilien #Fakten #Transparenz
+
+---
+
+# VIDEO 14 — „Deine Zeit gehört dir"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Wann hast du zum letzten Mal selbst entschieden, wann du arbeitest?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Kein Bürozwang. Keine fixen Arbeitszeiten. Du entscheidest, wann, wo und wie du arbeitest. Das ist nicht Theorie — das ist mein Alltag.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–5 | „Wann hast du zuletzt selbst entschieden, wann du arbeitest?" | BOLD WEISS |
+| 20–24 | „Kein Bürozwang." | GOLD, groß |
+| 28–32 | „Keine fixen Zeiten." | GOLD |
+| 44–48 | „Dein Tag. Deine Regeln." | BOLD WEISS |
+| 64–68 | „Schreib mir FREIZEIT in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Als angestellter oder gebundener Makler kennst du das:
+
+Büropflicht. Kernzeiten. Termine nach fremden Vorgaben.
+
+Bei iad gibt es das nicht. Kein Bürozwang — du arbeitest, wo du willst. Keine Kernzeiten — du strukturierst deinen Tag selbst. Keine Vorgaben — außer den Ergebnissen, die du dir selbst setzt.
+
+Das ist vollständige unternehmerische Freiheit. Mit dem globalen Netzwerk von iad als Rückhalt.
+
+Schreib mir FREIZEIT in die DMs.
+
+**HASHTAGS:**
+#Freiheit #iadDeutschland #Immobilienmakler #WorkLifeBalance #HomeOffice #Selbstständig #Profi #MaklerWechsel #Karriere #ImmobilienKarriere #MarkusSeitz #SelbstständigMitPlan #Immobilien #Flexibilität #Zeit
+
+---
+
+# VIDEO 15 — „Dein Name. Deine Marke. Dein Business."
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Du hast jahrelang eine Marke aufgebaut. Deine eigene."
+
+**VOICEOVER (ca. 10 Sek.):**
+Bei iad gehört dein Name dir. Deine Kunden, dein Netzwerk, dein Ruf — das nimmst du mit. Und bekommst das Rückenwind eines globalen Unternehmens dazu.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „Du hast jahrelang eine Marke aufgebaut." | BOLD WEISS |
+| 18–22 | „Dein Name. Deine Kunden. Dein Netzwerk." | GOLD, Aufzählung |
+| 32–36 | „Das nimmst du mit." | BOLD WEISS, groß |
+| 44–48 | „+ Rückenwind eines globalen Unternehmens." | Weiß |
+| 64–68 | „Schreib mir MARKE in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Als erfahrener Makler hast du etwas aufgebaut, das man nicht kaufen kann: Vertrauen. Reputation. Ein Netzwerk.
+
+Bei iad gibst du das nicht auf.
+
+Du arbeitest weiterhin unter deinem eigenen Namen. Deine Kundenbeziehungen gehören dir. Dein Netzwerk bleibt deins.
+
+Was hinzukommt: die Marke, Infrastruktur und globale Reichweite von iad — eines der größten Immobilienunternehmen weltweit.
+
+Mehr, nicht weniger. Schreib mir MARKE in die DMs.
+
+**HASHTAGS:**
+#Marke #iadDeutschland #Immobilienmakler #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Netzwerk #MarkusSeitz #SelbstständigMitPlan #Immobilien #PersonalBrand #Reputation #Wachstum
+
+---
+
+# VIDEO 16 — „Was willst du in 3 Jahren anders machen?"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Was willst du in 3 Jahren anders machen als heute?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Die Makler, die heute wechseln, sind in 3 Jahren mit eigenem Team, stabiler Provision und internationalem Netzwerk aufgestellt. Der richtige Zeitpunkt ist jetzt — nicht irgendwann.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–5 | „Was willst du in 3 Jahren anders machen?" | BOLD WEISS |
+| 18–22 | „Eigenes Team. Stabile Provision. Internationales Netzwerk." | GOLD, Aufzählung |
+| 40–44 | „In 3 Jahren." | Weiß, groß |
+| 52–56 | „Der richtige Zeitpunkt ist jetzt." | BOLD WEISS |
+| 64–68 | „Schreib mir ZUKUNFT in die DMs." | Weiß, klein |
+
+**CAPTION:**
+In 3 Jahren wirst du heute eine Entscheidung getroffen haben.
+
+Die Makler, die jetzt zu iad wechseln, bauen gerade auf:
+✔ Eigenes Team mit Umsatzbeteiligung
+✔ 69 % Provision — stabil und planbar
+✔ Internationales Netzwerk aus 20.000+ Beratern
+✔ Vollständige unternehmerische Freiheit
+
+Oder du machst in 3 Jahren genau das, was du heute machst.
+
+Schreib mir ZUKUNFT in die DMs. Ich zeige dir, wie der Weg konkret aussieht.
+
+**HASHTAGS:**
+#Zukunft #iadDeutschland #Immobilienmakler #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Wachstum #Teamaufbau #Provision #MarkusSeitz #SelbstständigMitPlan #Immobilien #Perspektive
