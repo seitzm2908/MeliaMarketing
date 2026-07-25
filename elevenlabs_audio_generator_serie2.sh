@@ -18,6 +18,12 @@ TEXTS[V07]="Bei iad hast du die Möglichkeit, dein eigenes Team aufzubauen und a
 TEXTS[V08]="Als er mir gesagt hat, wie viel Provision er vorher behalten hat, war ich ehrlich überrascht. Nicht, weil es wenig war. Sondern weil er es für normal gehalten hatte."
 TEXTS[V09]="Mit iad bist du von Tag eins Teil eines internationalen Netzwerks. Grenzüberschreitende Deals, internationale Käufer, europäische Referenzen — das ist Realität."
 TEXTS[V10]="Ich suche keine Einsteiger. Ich suche erfahrene Makler, die wissen, was sie können — und die bereit sind, mit den richtigen Rahmenbedingungen das nächste Level zu erreichen."
+TEXTS[V11]="Kein Sprung ins kalte Wasser. Persönlicher Mentor, alle Tools direkt verfügbar, strukturiertes Onboarding. Du bist von Tag eins produktiv — nicht allein."
+TEXTS[V12]="Ich begleite neue Berater persönlich — nicht mit Frontaltraining, sondern mit echtem Erfahrungstransfer. Weil ich selbst genau diesen Weg gegangen bin."
+TEXTS[V13]="Das höre ich oft. Deshalb kein Versprechen, kein Pitch, kein Druck. Nur ein offenes Gespräch — mit Zahlen, Fakten und echten Antworten auf echte Fragen."
+TEXTS[V14]="Kein Bürozwang. Keine fixen Arbeitszeiten. Du entscheidest, wann, wo und wie du arbeitest. Das ist nicht Theorie — das ist mein Alltag."
+TEXTS[V15]="Bei iad gehört dein Name dir. Deine Kunden, dein Netzwerk, dein Ruf — das nimmst du mit. Und bekommst den Rückenwind eines globalen Unternehmens dazu."
+TEXTS[V16]="Die Makler, die heute wechseln, sind in 3 Jahren mit eigenem Team, stabiler Provision und internationalem Netzwerk aufgestellt. Der richtige Zeitpunkt ist jetzt — nicht irgendwann."
 
 for KEY in $(echo "${!TEXTS[@]}" | tr ' ' '\n' | sort); do
   TEXT="${TEXTS[$KEY]}"

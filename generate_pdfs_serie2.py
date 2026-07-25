@@ -1,0 +1,506 @@
+#!/usr/bin/env python3
+"""
+PDF-Generator fuer alle 16 Serie-2-Videos.
+Ausfuehren: python3 generate_pdfs_serie2.py
+Ausgabe:    ./pdfs_serie2/V01_Serie2_Produktionsblatt.pdf ... V16_...pdf
+"""
+
+import os
+from reportlab.lib.pagesizes import A4
+from reportlab.platypus import (
+    SimpleDocTemplate, Paragraph, Spacer, HRFlowable, Table, TableStyle
+)
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.lib.units import cm
+from reportlab.lib.colors import HexColor, white
+
+DUNKEL    = HexColor("#1A1A2E")
+GOLD      = HexColor("#C9A84C")
+GRAU      = HexColor("#666666")
+HELLGRAU  = HexColor("#DDDDDD")
+
+VIDEOS = [
+    {
+        "num": "V01",
+        "titel": "Die Frage, die sich jeder Profi stellen sollte",
+        "hook": "Wie viel Prozent deiner Provision behältst du wirklich?",
+        "einsprech": (
+            "Ich habe diese Frage lange nicht gestellt. Bis ich gemerkt habe, "
+            "dass ich jeden Monat einen erheblichen Teil meiner Arbeit einfach "
+            "abgebe. Heute nicht mehr."
+        ),
+        "caption": [
+            "Als Immobilienprofi weißt du, was ein Abschluss wert ist.",
+            " ",
+            "Die Frage ist: Wie viel davon landet wirklich bei dir?",
+            " ",
+            "Bei iad behalten unsere Berater 69 % der Provision — einer der "
+            "höchsten Sätze am Markt. Dazu ein internationales Netzwerk mit "
+            "über 20.000 Beratern und 525 Mio. € Jahresumsatz im Rücken.",
+            " ",
+            "Kein Bürozwang. Kein Dach, das dir 30–40 % abnimmt.",
+            " ",
+            "Wenn dich das interessiert: Kein Pitch — ein ehrliches Gespräch.",
+        ],
+        "cta": "Schreib mir PROVISION in die DMs.",
+        "keyword": "PROVISION",
+    },
+    {
+        "num": "V02",
+        "titel": "Was 20.000 Berater fuer dich bedeuten",
+        "hook": "Stell dir vor, du hast 20.000 Kollegen — weltweit.",
+        "einsprech": (
+            "Nicht Konkurrenten. Kollegen. Ein Netzwerk, das für dich arbeitet "
+            "— bei Referenzen, bei grenzüberschreitenden Deals, bei Wissen. "
+            "Das ist iad."
+        ),
+        "caption": [
+            "Allein als Makler zu arbeiten bedeutet: alle Verbindungen selbst aufbauen.",
+            " ",
+            "Bei iad gehörst du vom ersten Tag an einem internationalen Netzwerk "
+            "mit über 20.000 Beratern an. In Deutschland, Frankreich, Spanien, "
+            "Portugal, Belgien und weiteren Ländern.",
+            " ",
+            "Das bedeutet: Internationale Kunden. Grenzüberschreitende Deals. "
+            "Und Wissen, das kein Einzelkämpfer je allein aufbauen könnte.",
+            " ",
+            "Wenn du erfahrener Makler bist und weißt, was ein starkes "
+            "Netzwerk wert ist:",
+        ],
+        "cta": "Schreib mir NETZWERK in die DMs.",
+        "keyword": "NETZWERK",
+    },
+    {
+        "num": "V03",
+        "titel": "Warum erfahrene Makler wechseln",
+        "hook": "Ich frage jeden erfahrenen Makler, der zu mir kommt, dasselbe.",
+        "einsprech": (
+            "Was hat dich aufgehalten, früher zu wechseln? Die Antwort ist fast "
+            "immer gleich: Ich wusste nicht, dass es diese Alternative gibt."
+        ),
+        "caption": [
+            "Die meisten Makler, die zu iad wechseln, sagen danach dasselbe:",
+            " ",
+            "\"Hätte ich das früher gewusst.\"",
+            " ",
+            "69 % Provision. Kein Bürozwang. Internationales Netzwerk. "
+            "Volle unternehmerische Freiheit — mit einem der größten "
+            "Immobilienunternehmen weltweit im Rücken.",
+            " ",
+            "Du bringst die Erfahrung. Wir bringen die Struktur, die dich weiterbringt.",
+            " ",
+            "Kein Druck — aber ein offenes Gespräch.",
+        ],
+        "cta": "Schreib mir WECHSEL in die DMs.",
+        "keyword": "WECHSEL",
+    },
+    {
+        "num": "V04",
+        "titel": "525 Millionen Euro — was das fuer dich bedeutet",
+        "hook": "525 Millionen Euro Jahresumsatz. Was hat das mit dir zu tun?",
+        "einsprech": (
+            "Stabilität. Glaubwürdigkeit. Und ein Unternehmen, das wächst — "
+            "nicht trotz der Marktlage, sondern wegen seiner Struktur. "
+            "Daran kannst du teilhaben."
+        ),
+        "caption": [
+            "iad ist eines der größten Immobilienunternehmen weltweit.",
+            " ",
+            "525 Mio. € Kartenumsatz jährlich. Über 20.000 Berater. "
+            "Mehrere europäische Märkte.",
+            " ",
+            "Das bedeutet für dich als Berater: Du arbeitest selbstständig "
+            "— aber nie allein. Mit einer Marke im Rücken, der Eigentümer "
+            "und Käufer vertrauen.",
+            " ",
+            "Wenn du weißt, was solide Unternehmensstruktur im Vertrieb wert ist:",
+        ],
+        "cta": "Schreib mir IAD in die DMs.",
+        "keyword": "IAD",
+    },
+    {
+        "num": "V05",
+        "titel": "Wie Innovation im Immobilienmarkt wirklich aussieht",
+        "hook": "Die meisten Immobilienunternehmen reden von Innovation. Wir leben sie.",
+        "einsprech": (
+            "Digitale Tools, KI-gestützte Prozesse, internationale Plattform "
+            "— das sind keine Versprechen bei iad. Das ist der Alltag. Und "
+            "das gibt dir als Berater einen echten Vorsprung."
+        ),
+        "caption": [
+            "In einer Branche, die sich gerade stärker verändert als je zuvor, "
+            "entscheidet die Infrastruktur, mit der du arbeitest.",
+            " ",
+            "iad setzt konsequent auf digitale Prozesse, KI-gestützte Tools "
+            "und internationale Vernetzung — damit du als Berater weniger Zeit "
+            "mit Administration und mehr Zeit mit echten Mandaten verbringst.",
+            " ",
+            "Du bist Profi. Dann arbeit auch mit den Tools eines Profis.",
+        ],
+        "cta": "Schreib mir INNOVATION in die DMs.",
+        "keyword": "INNOVATION",
+    },
+    {
+        "num": "V06",
+        "titel": "Freiheit und Struktur — kein Widerspruch",
+        "hook": "Selbstständig. Aber nicht allein.",
+        "einsprech": (
+            "Du arbeitest eigenverantwortlich — mit deinen Kunden, in deiner "
+            "Region, nach deinen Regeln. Aber mit einem globalen Unternehmen "
+            "im Rücken. Das ist der Kern von iad."
+        ),
+        "caption": [
+            "Die meisten Makler müssen wählen: Freiheit oder Struktur.",
+            " ",
+            "Bei iad brauchst du das nicht.",
+            " ",
+            "Du bist vollständig selbstständig — kein Bürozwang, keine fixen "
+            "Arbeitszeiten, keine fremden Vorgaben. Gleichzeitig arbeitest du "
+            "mit der Infrastruktur, dem Netzwerk und der Marke eines der "
+            "größten Immobilienunternehmen weltweit.",
+            " ",
+            "69 % Provision. Vollständige Freiheit. Globaler Rückhalt.",
+            " ",
+            "Wir reden ehrlich darüber, ob das zu dir passt.",
+        ],
+        "cta": "Schreib mir FREIHEIT in die DMs.",
+        "keyword": "FREIHEIT",
+    },
+    {
+        "num": "V07",
+        "titel": "Was passiert, wenn du dein eigenes Team aufbaust",
+        "hook": "Was wäre, wenn dein Einkommen nicht nur von deiner eigenen Arbeit abhängt?",
+        "einsprech": (
+            "Bei iad hast du die Möglichkeit, dein eigenes Team aufzubauen "
+            "und an deren Umsatz beteiligt zu sein. Das ist die zweite "
+            "Einkommenssäule, die die meisten Makler nie haben."
+        ),
+        "caption": [
+            "Als Einzelmakler hängt alles an dir.",
+            " ",
+            "Bei iad hast du zusätzlich die Möglichkeit, andere Berater zu "
+            "entwickeln und aufzunehmen — und an deren Umsatz beteiligt zu sein.",
+            " ",
+            "Das ist kein MLM. Das ist ein legitimes Partnerschaftsmodell, "
+            "das dir langfristig eine zweite Einkommenssäule aufbaut — "
+            "neben deinen eigenen Abschlüssen.",
+            " ",
+            "Wenn du bereits daran denkst, zu skalieren:",
+        ],
+        "cta": "Schreib mir TEAM in die DMs.",
+        "keyword": "TEAM",
+    },
+    {
+        "num": "V08",
+        "titel": "Mein erstes Gespräch mit einem Makler, der gewechselt hat",
+        "hook": "Er hat 12 Jahre bei einem klassischen Immobilienunternehmen gearbeitet.",
+        "einsprech": (
+            "Als er mir gesagt hat, wie viel Provision er vorher behalten hat, "
+            "war ich ehrlich überrascht. Nicht, weil es wenig war. Sondern "
+            "weil er es für normal gehalten hatte."
+        ),
+        "caption": [
+            "Viele Makler akzeptieren Konditionen, weil sie nichts anderes kennen.",
+            " ",
+            "Dieser Berater hat 12 Jahre lang einen erheblichen Teil seiner "
+            "Provision abgegeben — und erst bei unserem Gespräch gemerkt, "
+            "wie viel das über die Jahre bedeutet hat.",
+            " ",
+            "Heute ist er bei iad. Mit 69 % Provision, vollem Netzwerkzugang "
+            "und der Freiheit, sein Business selbst zu gestalten.",
+            " ",
+            "Was gibst du gerade jeden Monat ab?",
+        ],
+        "cta": "Schreib mir PROVISION in die DMs.",
+        "keyword": "PROVISION",
+    },
+    {
+        "num": "V09",
+        "titel": "International arbeiten als Makler — wie das geht",
+        "hook": "Dein nächster Käufer kommt vielleicht aus Frankreich.",
+        "einsprech": (
+            "Mit iad bist du von Tag eins Teil eines internationalen Netzwerks. "
+            "Grenzüberschreitende Deals, internationale Käufer, europäische "
+            "Referenzen — das ist kein Versprechen, das ist Realität."
+        ),
+        "caption": [
+            "Wer nur lokal denkt, lässt Potenzial liegen.",
+            " ",
+            "iad ist in mehreren europäischen Ländern aktiv — Deutschland, "
+            "Frankreich, Spanien, Portugal, Belgien und weiteren Märkten.",
+            " ",
+            "Als Berater profitierst du vom internationalen Netzwerk, von "
+            "Referenzen aus anderen Ländern und von internationalen Käufern.",
+            " ",
+            "Für erfahrene Makler mit dem richtigen Netzwerk ist das ein "
+            "echter Wettbewerbsvorteil.",
+        ],
+        "cta": "Schreib mir INTERNATIONAL in die DMs.",
+        "keyword": "INTERNATIONAL",
+    },
+    {
+        "num": "V10",
+        "titel": "Das Gespräch, das alles veraendert",
+        "hook": "Ich führe dieses Gespräch gerne. Aber nur mit den Richtigen.",
+        "einsprech": (
+            "Ich suche keine Einsteiger. Ich suche erfahrene Makler, die "
+            "wissen, was sie können — und die bereit sind, mit den richtigen "
+            "Rahmenbedingungen das nächste Level zu erreichen."
+        ),
+        "caption": [
+            "Ich bin Immobilienberater bei iad — einem der größten "
+            "Immobilienunternehmen weltweit.",
+            " ",
+            "Ich baue gerade mein Team mit erfahrenen Maklern auf, die mehr "
+            "aus ihrer Arbeit machen wollen:",
+            " ",
+            "69 % Provision — einer der höchsten Sätze am Markt",
+            "Internationales Netzwerk mit 20.000+ Beratern",
+            "525 Mio. € Jahresumsatz — Stabilität und Glaubwürdigkeit",
+            "Volle Selbstständigkeit — kein Bürozwang, keine Vorgaben",
+            "Optional: eigenes Team aufbauen und skalieren",
+            " ",
+            "Kein Standardpitch. Ein offenes Gespräch darüber, ob das zu "
+            "dir und deiner Situation passt.",
+            " ",
+            "Ich melde mich persönlich. → selbstständig-mit-plan.de",
+        ],
+        "cta": "Schreib mir PROFI in die DMs.",
+        "keyword": "PROFI",
+    },
+    {
+        "num": "V11",
+        "titel": "Dein erster Tag bei iad — was wirklich passiert",
+        "hook": "Dein erster Tag bei iad. Was erwartet dich wirklich?",
+        "einsprech": (
+            "Kein Sprung ins kalte Wasser. Persönlicher Mentor, alle Tools "
+            "direkt verfügbar, strukturiertes Onboarding. Du bist von Tag "
+            "eins produktiv — nicht allein."
+        ),
+        "caption": [
+            "Viele Makler fragen mich: Wie läuft der Wechsel zu iad ab?",
+            " ",
+            "Hier die ehrliche Antwort:",
+            " ",
+            "Du bekommst einen persönlichen Mentor — jemanden, der selbst "
+            "den Weg gegangen ist. Alle digitalen Tools sind von Tag eins "
+            "zugänglich. Ein strukturierter Onboarding-Prozess führt dich "
+            "durch die ersten Wochen.",
+            " ",
+            "Kein \"Sink or swim\". Kein Alleingang.",
+            " ",
+            "Wenn du verstehen willst, wie ein Einstieg konkret aussieht:",
+        ],
+        "cta": "Schreib mir START in die DMs.",
+        "keyword": "START",
+    },
+    {
+        "num": "V12",
+        "titel": "Nicht Vorgesetzter. Mentor.",
+        "hook": "Bei iad hast du vom ersten Tag einen persönlichen Mentor.",
+        "einsprech": (
+            "Ich begleite neue Berater persönlich — nicht mit Frontaltraining, "
+            "sondern mit echtem Erfahrungstransfer. Weil ich selbst genau "
+            "diesen Weg gegangen bin."
+        ),
+        "caption": [
+            "Bei klassischen Immobilienunternehmen gibt es Vorgesetzte.",
+            " ",
+            "Bei iad gibt es Mentoren.",
+            " ",
+            "Ich begleite erfahrene Makler, die zu meinem Team stoßen, "
+            "persönlich. Kein Standard-Training — echter Erfahrungsaustausch, "
+            "echte Gespräche, echte Unterstützung.",
+            " ",
+            "Denn ich kenne die Fragen, die du hast. Ich hatte sie selbst.",
+            " ",
+            "Wenn du wissen willst, wie das konkret aussieht:",
+        ],
+        "cta": "Schreib mir MENTOR in die DMs.",
+        "keyword": "MENTOR",
+    },
+    {
+        "num": "V13",
+        "titel": "Ich kenne deinen Einwand",
+        "hook": "Klingt zu gut, um wahr zu sein — oder?",
+        "einsprech": (
+            "Das höre ich oft. Deshalb kein Versprechen, kein Pitch, kein "
+            "Druck. Nur ein offenes Gespräch — mit Zahlen, Fakten und echten "
+            "Antworten auf echte Fragen."
+        ),
+        "caption": [
+            "Ich verstehe den Gedanken.",
+            " ",
+            "69 % Provision. 20.000 Berater. 525 Mio. € Umsatz. "
+            "Klingt nach einem zu guten Pitch.",
+            " ",
+            "Deshalb sage ich: Ruf mich einfach an. Oder schreib mir. "
+            "Ich beantworte jede Frage, die du hast — offen und ohne Druck.",
+            " ",
+            "Wer nichts zu verbergen hat, führt das Gespräch.",
+        ],
+        "cta": "Schreib mir FRAGE in die DMs.",
+        "keyword": "FRAGE",
+    },
+    {
+        "num": "V14",
+        "titel": "Deine Zeit gehört dir",
+        "hook": "Wann hast du zum letzten Mal selbst entschieden, wann du arbeitest?",
+        "einsprech": (
+            "Kein Bürozwang. Keine fixen Arbeitszeiten. Du entscheidest, "
+            "wann, wo und wie du arbeitest. Das ist nicht Theorie "
+            "— das ist mein Alltag."
+        ),
+        "caption": [
+            "Als angestellter oder gebundener Makler kennst du das:",
+            " ",
+            "Büropflicht. Kernzeiten. Termine nach fremden Vorgaben.",
+            " ",
+            "Bei iad gibt es das nicht. Kein Bürozwang — du arbeitest, wo "
+            "du willst. Keine Kernzeiten — du strukturierst deinen Tag selbst. "
+            "Keine Vorgaben — außer den Ergebnissen, die du dir selbst setzt.",
+            " ",
+            "Das ist vollständige unternehmerische Freiheit. Mit dem globalen "
+            "Netzwerk von iad als Rückhalt.",
+        ],
+        "cta": "Schreib mir FREIZEIT in die DMs.",
+        "keyword": "FREIZEIT",
+    },
+    {
+        "num": "V15",
+        "titel": "Dein Name. Deine Marke. Dein Business.",
+        "hook": "Du hast jahrelang eine Marke aufgebaut. Deine eigene.",
+        "einsprech": (
+            "Bei iad gehört dein Name dir. Deine Kunden, dein Netzwerk, "
+            "dein Ruf — das nimmst du mit. Und bekommst den Rückenwind "
+            "eines globalen Unternehmens dazu."
+        ),
+        "caption": [
+            "Als erfahrener Makler hast du etwas aufgebaut, das man nicht "
+            "kaufen kann: Vertrauen. Reputation. Ein Netzwerk.",
+            " ",
+            "Bei iad gibst du das nicht auf.",
+            " ",
+            "Du arbeitest weiterhin unter deinem eigenen Namen. Deine "
+            "Kundenbeziehungen gehören dir. Dein Netzwerk bleibt deins.",
+            " ",
+            "Was hinzukommt: die Marke, Infrastruktur und globale Reichweite "
+            "von iad — eines der größten Immobilienunternehmen weltweit.",
+            " ",
+            "Mehr, nicht weniger.",
+        ],
+        "cta": "Schreib mir MARKE in die DMs.",
+        "keyword": "MARKE",
+    },
+    {
+        "num": "V16",
+        "titel": "Was willst du in 3 Jahren anders machen?",
+        "hook": "Was willst du in 3 Jahren anders machen als heute?",
+        "einsprech": (
+            "Die Makler, die heute wechseln, sind in 3 Jahren mit eigenem "
+            "Team, stabiler Provision und internationalem Netzwerk aufgestellt. "
+            "Der richtige Zeitpunkt ist jetzt — nicht irgendwann."
+        ),
+        "caption": [
+            "In 3 Jahren wirst du heute eine Entscheidung getroffen haben.",
+            " ",
+            "Die Makler, die jetzt zu iad wechseln, bauen gerade auf:",
+            " ",
+            "Eigenes Team mit Umsatzbeteiligung",
+            "69 % Provision — stabil und planbar",
+            "Internationales Netzwerk aus 20.000+ Beratern",
+            "Vollständige unternehmerische Freiheit",
+            " ",
+            "Oder du machst in 3 Jahren genau das, was du heute machst.",
+            " ",
+            "Ich zeige dir, wie der Weg konkret aussieht.",
+        ],
+        "cta": "Schreib mir ZUKUNFT in die DMs.",
+        "keyword": "ZUKUNFT",
+    },
+]
+
+
+def make_badge(label):
+    cell = Paragraph(label, ParagraphStyle("badge", fontName="Helvetica-Bold",
+                     fontSize=8, textColor=white, leading=10))
+    t = Table([[cell]], colWidths=[4.5*cm])
+    t.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), DUNKEL),
+        ("TOPPADDING", (0, 0), (-1, -1), 5),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+        ("LEFTPADDING", (0, 0), (-1, -1), 8),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+    ]))
+    return t
+
+
+def build_pdf(video, out_dir):
+    filename = f"{video['num']}_Serie2_Produktionsblatt.pdf"
+    path = os.path.join(out_dir, filename)
+
+    doc = SimpleDocTemplate(path, pagesize=A4,
+                            rightMargin=2.5*cm, leftMargin=2.5*cm,
+                            topMargin=2.5*cm, bottomMargin=2.5*cm)
+
+    s_meta   = ParagraphStyle("meta",   fontName="Helvetica",       fontSize=9,  textColor=GRAU,   leading=12)
+    s_num    = ParagraphStyle("num",    fontName="Helvetica-Bold",  fontSize=22, textColor=DUNKEL, leading=26)
+    s_titel  = ParagraphStyle("titel",  fontName="Helvetica",       fontSize=12, textColor=GRAU,   leading=16)
+    s_hook   = ParagraphStyle("hook",   fontName="Helvetica-BoldOblique", fontSize=14, textColor=DUNKEL, leading=21)
+    s_note   = ParagraphStyle("note",   fontName="Helvetica",       fontSize=8,  textColor=GRAU,   leading=11)
+    s_body   = ParagraphStyle("body",   fontName="Helvetica",       fontSize=12, textColor=DUNKEL, leading=19)
+    s_cta    = ParagraphStyle("cta",    fontName="Helvetica-Bold",  fontSize=12, textColor=GOLD,   leading=19)
+    s_footer = ParagraphStyle("footer", fontName="Helvetica",       fontSize=8,  textColor=GRAU,   leading=11)
+    s_kw     = ParagraphStyle("kw",     fontName="Helvetica-Bold",  fontSize=9,  textColor=DUNKEL, leading=12)
+
+    story = []
+
+    story.append(Paragraph("SERIE 2 — Vom Immobilienprofi zum Immobilienprofi", s_meta))
+    story.append(Paragraph(f"VIDEO {video['num'][1:]}", s_num))
+    story.append(Paragraph(video["titel"], s_titel))
+    story.append(Spacer(1, 0.35*cm))
+    story.append(HRFlowable(width="100%", thickness=2, color=GOLD, spaceAfter=0.5*cm))
+
+    # HOOK
+    story.append(make_badge("HOOK"))
+    story.append(Spacer(1, 0.2*cm))
+    story.append(Paragraph(f"„{video['hook']}“", s_hook))
+    story.append(Spacer(1, 0.1*cm))
+    story.append(Paragraph("Text-Overlay · Frame 1 · BOLD WEISS · groß", s_note))
+    story.append(Spacer(1, 0.45*cm))
+    story.append(HRFlowable(width="100%", thickness=0.5, color=HELLGRAU, spaceAfter=0.45*cm))
+
+    # EINSPRECHTEXT
+    story.append(make_badge("EINSPRECHTEXT (ca. 10 Sek.)"))
+    story.append(Spacer(1, 0.2*cm))
+    story.append(Paragraph(video["einsprech"], s_body))
+    story.append(Spacer(1, 0.45*cm))
+    story.append(HRFlowable(width="100%", thickness=0.5, color=HELLGRAU, spaceAfter=0.45*cm))
+
+    # CAPTION
+    story.append(make_badge("CAPTION"))
+    story.append(Spacer(1, 0.2*cm))
+    for line in video["caption"]:
+        story.append(Paragraph(line, s_body))
+    story.append(Spacer(1, 0.15*cm))
+    story.append(Paragraph(video["cta"], s_cta))
+
+    story.append(Spacer(1, 0.5*cm))
+    story.append(HRFlowable(width="100%", thickness=2, color=GOLD, spaceAfter=0.35*cm))
+    story.append(Paragraph(
+        f"Markus Seitz Immobilien iad · Serie 2 · {video['num']} · KI generiert", s_footer))
+    story.append(Paragraph(f"DM-Keyword: {video['keyword']}", s_kw))
+
+    doc.build(story)
+    return path
+
+
+if __name__ == "__main__":
+    out_dir = os.path.join(os.path.dirname(__file__), "pdfs_serie2")
+    os.makedirs(out_dir, exist_ok=True)
+
+    for v in VIDEOS:
+        path = build_pdf(v, out_dir)
+        print(f"  Erstellt: {path}")
+
+    print(f"\nFertig! Alle {len(VIDEOS)} PDFs liegen in: {out_dir}/")
