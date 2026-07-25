@@ -3,7 +3,21 @@
     "defaultMode": "bypassPermissions",
     "allow": [
       "mcp__1fc6895d-3ecc-4fa1-af28-eea5939fa3e0__*",
-      "mcp__Higgsfield__*"
+      "mcp__Higgsfield__*",
+      "mcp__Canva__*",
+      "mcp__Notion__*",
+      "mcp__Google_Drive__*",
+      "mcp__Gmail__*",
+      "mcp__Google_Calendar__*",
+      "mcp__HubSpot__*",
+      "mcp__github__*",
+      "Bash(python3:*)",
+      "Bash(git *)",
+      "Bash(chmod *)",
+      "Bash(ls *)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)"
     ]
   }
 }
