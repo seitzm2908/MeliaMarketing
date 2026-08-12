@@ -597,3 +597,205 @@ Schreib mir ZUKUNFT in die DMs. Ich zeige dir, wie der Weg konkret aussieht.
 
 **HASHTAGS:**
 #Zukunft #iadDeutschland #Immobilienmakler #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Wachstum #Teamaufbau #Provision #MarkusSeitz #SelbstständigMitPlan #Immobilien #Perspektive
+
+---
+
+# ERWEITERUNG SERIE 2 — VIDEOS 17–22
+
+---
+
+# VIDEO 17 — „Was dich dein aktuelles Modell wirklich kostet"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Rechne mal kurz mit mir."
+
+**VOICEOVER (ca. 10 Sek.):**
+5 Abschlüsse im Monat. 40 % Provisionsabgabe. Auf 10 Jahre gerechnet — weißt du, was diese Zahl bedeutet? Die meisten Makler haben sie noch nie ausgerechnet.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–3 | „Rechne mal kurz mit mir." | BOLD WEISS, groß |
+| 10–14 | „40 % Provisionsabgabe × 10 Jahre." | GOLD, groß |
+| 28–32 | „Hast du diese Zahl je ausgerechnet?" | Weiß, kursiv |
+| 44–48 | „Bei iad: 69 % bleiben bei dir." | BOLD WEISS |
+| 64–68 | „Schreib mir RECHNER in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Mach diese Rechnung einmal.
+
+5 Abschlüsse im Monat. Durchschnittliche Provision pro Deal. Wie viel gibst du davon ab — jeden Monat, jedes Jahr?
+
+Bei klassischen Modellen sind das oft 30–40 %, die du nicht siehst. Über 10 Jahre ist das eine Summe, bei der die meisten Makler still werden.
+
+Bei iad behältst du 69 % — einer der höchsten Sätze am Markt.
+
+Schreib mir RECHNER in die DMs. Ich zeige dir, was die Zahl bei dir konkret bedeutet.
+
+**HASHTAGS:**
+#Provision #iadDeutschland #Immobilienmakler #Finanzen #MaklerWechsel #Profi #Karriere #Selbstständig #ImmobilienKarriere #Rechner #MarkusSeitz #SelbstständigMitPlan #Immobilien #Wachstum #Freiheit
+
+---
+
+# VIDEO 18 — „So sieht mein Alltag als iad-Berater wirklich aus"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „7:30 Uhr. Homeoffice. Kein Chef. Kein Büro. Kein Muss."
+
+**VOICEOVER (ca. 10 Sek.):**
+Morgens Akquise nach eigenem Rhythmus, mittags Besichtigung, abends Abschluss. Das ist kein Lifestyle-Marketing. Das ist mein Donnerstag — und der von jedem iad-Berater.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „7:30 Uhr. Homeoffice." | BOLD WEISS, groß |
+| 4–7 | „Kein Chef. Kein Büro. Kein Muss." | GOLD |
+| 20–24 | „Akquise. Besichtigung. Abschluss." | Weiß, Aufzählung |
+| 38–42 | „Nach meinem Rhythmus." | BOLD WEISS |
+| 64–68 | „Schreib mir ALLTAG in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Kein Standardtag. Kein Bürozwang. Keine Rechenschaft.
+
+Das ist nicht das Versprechen von iad — das ist die Realität, die ich und andere Berater täglich leben.
+
+Ich entscheide, wann ich arbeite, wo ich Termine mache und welche Kunden ich betreue. Volle unternehmerische Verantwortung — mit dem Netzwerk und der Infrastruktur eines der größten Immobilienunternehmen weltweit.
+
+Willst du wissen, wie dein Alltag aussehen könnte?
+
+Schreib mir ALLTAG in die DMs.
+
+**HASHTAGS:**
+#Alltag #iadDeutschland #Immobilienmakler #Homeoffice #Selbstständig #Profi #WorkLifeBalance #MaklerWechsel #Karriere #ImmobilienKarriere #Freiheit #MarkusSeitz #SelbstständigMitPlan #Immobilien #Flexibilität
+
+---
+
+# VIDEO 19 — „Was mir ein Makler nach 3 Monaten geschrieben hat"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Er hat mir nach 3 Monaten eine Nachricht geschickt."
+
+**VOICEOVER (ca. 10 Sek.):**
+Nicht um sich zu bedanken. Sondern weil er gemerkt hat, dass er in drei Monaten mehr behalten hat als im ganzen letzten Halbjahr. Das hatte er selbst nicht erwartet.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „Er hat mir nach 3 Monaten geschrieben." | BOLD WEISS |
+| 18–22 | „Mehr behalten als im ganzen letzten Halbjahr." | GOLD, groß |
+| 36–40 | „Das hatte er selbst nicht erwartet." | Weiß, kursiv |
+| 52–56 | „3 Monate. Echter Unterschied." | BOLD WEISS |
+| 64–68 | „Schreib mir ERFAHRUNG in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Ich erinnere mich genau an diese Nachricht.
+
+Er war 9 Jahre bei einem klassischen Immobilienunternehmen. Hatte Erfahrung, Netzwerk, gute Abschlüsse — aber nie das Gefühl, wirklich für sich zu arbeiten.
+
+Nach 3 Monaten bei iad: mehr Provision behalten als im gesamten letzten Halbjahr. Gleiche Abschlüsse. Andere Konditionen.
+
+Das ist kein Einzelfall.
+
+Schreib mir ERFAHRUNG in die DMs — ich erzähle dir mehr.
+
+**HASHTAGS:**
+#Erfahrung #iadDeutschland #Immobilienmakler #MaklerWechsel #Provision #Profi #Karriere #Selbstständig #ImmobilienKarriere #Netzwerk #MarkusSeitz #SelbstständigMitPlan #Immobilien #Erfolg #Wachstum
+
+---
+
+# VIDEO 20 — „Als Einzelmakler arbeitest du, bis du aufhörst"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Als Einzelmakler arbeitest du, bis du aufhörst zu arbeiten."
+
+**VOICEOVER (ca. 10 Sek.):**
+Kein Urlaub ohne Umsatzverlust. Kein Ausfall ohne Folgen. Bei iad kannst du ein Team aufbauen, das auch dann Abschlüsse macht, wenn du nicht vor Ort bist. Das ist der Unterschied.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–5 | „Als Einzelmakler arbeitest du, bis du aufhörst." | BOLD WEISS |
+| 18–22 | „Kein Team. Kein Puffer. Kein Ausweg." | Weiß |
+| 32–36 | „Es gibt eine andere Möglichkeit." | GOLD, groß |
+| 48–52 | „Eigenes Team. Umsatzbeteiligung. Freiheit." | BOLD WEISS, Aufzählung |
+| 64–68 | „Schreib mir SKALIERUNG in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Das ist die Wahrheit, über die viele Makler nicht sprechen wollen.
+
+Als Einzelkämpfer hängt alles an dir — dein Umsatz, deine Kunden, deine Abschlüsse. Fällst du aus, fällt alles aus.
+
+Bei iad hast du die Möglichkeit, ein eigenes Team aufzubauen und an deren Umsatz beteiligt zu sein. Das ist keine Theorie — das ist das Modell, das aus Maklern Unternehmer macht.
+
+69 % Provision aus eigenen Abschlüssen. Plus Beteiligung am Team. Das ist skalierbar.
+
+Schreib mir SKALIERUNG in die DMs.
+
+**HASHTAGS:**
+#Skalierung #iadDeutschland #Immobilienmakler #Teamaufbau #Passiveseinkommen #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Wachstum #MarkusSeitz #SelbstständigMitPlan #Immobilien #Freiheit
+
+---
+
+# VIDEO 21 — „Der Unterschied zwischen gut und gut aufgestellt"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Du bist ein guter Makler. Aber arbeitest du auch mit den richtigen Rahmenbedingungen?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Können und Konditionen — beides zählt. Viele exzellente Makler arbeiten mit Strukturen, die ihre Ergebnisse deckeln. Das ist kein Versagen. Das ist das falsche System.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–5 | „Guter Makler. Falsche Rahmenbedingungen." | BOLD WEISS |
+| 18–22 | „Können × Konditionen = Ergebnis." | GOLD, groß |
+| 34–38 | „Viele Makler haben nur eine Variable optimiert." | Weiß, kursiv |
+| 50–54 | „Ändere auch die zweite." | BOLD WEISS, groß |
+| 64–68 | „Schreib mir SYSTEM in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Es gibt Makler, die hervorragend sind — und trotzdem nicht das rausholen, was sie könnten.
+
+Nicht weil sie nicht gut genug arbeiten. Sondern weil die Strukturen, in denen sie arbeiten, ihr Potenzial begrenzen.
+
+69 % Provision statt 40–50 %. Internationales Netzwerk statt Einzelkämpfer. Eigenes Team statt alles allein.
+
+Du bringst das Können. Ich zeige dir das System, das dazu passt.
+
+Schreib mir SYSTEM in die DMs.
+
+**HASHTAGS:**
+#System #iadDeutschland #Immobilienmakler #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Provision #Netzwerk #MarkusSeitz #SelbstständigMitPlan #Immobilien #Wachstum #Struktur
+
+---
+
+# VIDEO 22 — „Warum jetzt der richtige Zeitpunkt ist"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Der Markt verändert sich. Dein Einstiegsfenster auch."
+
+**VOICEOVER (ca. 10 Sek.):**
+Makler, die jetzt die Weichen stellen, werden in zwei Jahren mit aufgebautem Team, stabilem Netzwerk und klarer Positionierung dastehen. Wer wartet, wartet länger als geplant.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „Der Markt verändert sich." | BOLD WEISS |
+| 4–7 | „Dein Einstiegsfenster auch." | GOLD, groß |
+| 20–24 | „In 2 Jahren: Team. Netzwerk. Position." | Weiß, Aufzählung |
+| 44–48 | „Wer wartet, wartet länger als geplant." | BOLD WEISS |
+| 64–68 | „Schreib mir JETZT in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Es gibt nie den perfekten Zeitpunkt. Aber es gibt bessere und schlechtere.
+
+Der Immobilienmarkt ist im Wandel. Digitalisierung, internationale Käufer, veränderte Käuferprofile — wer jetzt die richtigen Strukturen aufbaut, ist in zwei Jahren anders aufgestellt als alle, die abgewartet haben.
+
+Bei iad bist du Teil eines der größten Immobilienunternehmen weltweit — mit 69 % Provision, internationalem Netzwerk und der Möglichkeit, ein eigenes Team aufzubauen.
+
+Der Zeitpunkt ist jetzt. Nicht irgendwann.
+
+Schreib mir JETZT in die DMs.
+
+**HASHTAGS:**
+#Jetzt #iadDeutschland #Immobilienmakler #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Markt #Timing #MarkusSeitz #SelbstständigMitPlan #Immobilien #Wachstum #Zukunft

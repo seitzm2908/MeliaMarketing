@@ -393,6 +393,156 @@ VIDEOS = [
         "keyword": "MARKE",
     },
     {
+        "num": "V17",
+        "titel": "Was dich dein aktuelles Modell wirklich kostet",
+        "hook": "Rechne mal kurz mit mir.",
+        "einsprech": (
+            "5 Abschlüsse im Monat. 40 % Provisionsabgabe. Auf 10 Jahre gerechnet "
+            "— weißt du, was diese Zahl bedeutet? Die meisten Makler haben sie "
+            "noch nie ausgerechnet."
+        ),
+        "caption": [
+            "Mach diese Rechnung einmal.",
+            " ",
+            "5 Abschlüsse im Monat. Durchschnittliche Provision pro Deal. "
+            "Wie viel gibst du davon ab — jeden Monat, jedes Jahr?",
+            " ",
+            "Bei klassischen Modellen sind das oft 30–40 %, die du nicht siehst. "
+            "Über 10 Jahre ist das eine Summe, bei der die meisten Makler still werden.",
+            " ",
+            "Bei iad behältst du 69 % — einer der höchsten Sätze am Markt.",
+            " ",
+            "Ich zeige dir, was die Zahl bei dir konkret bedeutet.",
+        ],
+        "cta": "Schreib mir RECHNER in die DMs.",
+        "keyword": "RECHNER",
+    },
+    {
+        "num": "V18",
+        "titel": "So sieht mein Alltag als iad-Berater wirklich aus",
+        "hook": "7:30 Uhr. Homeoffice. Kein Chef. Kein Büro. Kein Muss.",
+        "einsprech": (
+            "Morgens Akquise nach eigenem Rhythmus, mittags Besichtigung, abends "
+            "Abschluss. Das ist kein Lifestyle-Marketing. Das ist mein Donnerstag "
+            "— und der von jedem iad-Berater."
+        ),
+        "caption": [
+            "Kein Standardtag. Kein Bürozwang. Keine Rechenschaft.",
+            " ",
+            "Das ist nicht das Versprechen von iad — das ist die Realität, die "
+            "ich und andere Berater täglich leben.",
+            " ",
+            "Ich entscheide, wann ich arbeite, wo ich Termine mache und welche "
+            "Kunden ich betreue. Volle unternehmerische Verantwortung — mit dem "
+            "Netzwerk und der Infrastruktur eines der größten Immobilienunternehmen weltweit.",
+            " ",
+            "Willst du wissen, wie dein Alltag aussehen könnte?",
+        ],
+        "cta": "Schreib mir ALLTAG in die DMs.",
+        "keyword": "ALLTAG",
+    },
+    {
+        "num": "V19",
+        "titel": "Was mir ein Makler nach 3 Monaten geschrieben hat",
+        "hook": "Er hat mir nach 3 Monaten eine Nachricht geschickt.",
+        "einsprech": (
+            "Nicht um sich zu bedanken. Sondern weil er gemerkt hat, dass er in "
+            "drei Monaten mehr behalten hat als im ganzen letzten Halbjahr. "
+            "Das hatte er selbst nicht erwartet."
+        ),
+        "caption": [
+            "Ich erinnere mich genau an diese Nachricht.",
+            " ",
+            "Er war 9 Jahre bei einem klassischen Immobilienunternehmen. Hatte "
+            "Erfahrung, Netzwerk, gute Abschlüsse — aber nie das Gefühl, wirklich "
+            "für sich zu arbeiten.",
+            " ",
+            "Nach 3 Monaten bei iad: mehr Provision behalten als im gesamten "
+            "letzten Halbjahr. Gleiche Abschlüsse. Andere Konditionen.",
+            " ",
+            "Das ist kein Einzelfall.",
+            " ",
+            "Ich erzähle dir mehr.",
+        ],
+        "cta": "Schreib mir ERFAHRUNG in die DMs.",
+        "keyword": "ERFAHRUNG",
+    },
+    {
+        "num": "V20",
+        "titel": "Als Einzelmakler arbeitest du, bis du aufhörst",
+        "hook": "Als Einzelmakler arbeitest du, bis du aufhörst zu arbeiten.",
+        "einsprech": (
+            "Kein Urlaub ohne Umsatzverlust. Kein Ausfall ohne Folgen. Bei iad "
+            "kannst du ein Team aufbauen, das auch dann Abschlüsse macht, wenn "
+            "du nicht vor Ort bist. Das ist der Unterschied."
+        ),
+        "caption": [
+            "Das ist die Wahrheit, über die viele Makler nicht sprechen wollen.",
+            " ",
+            "Als Einzelkämpfer hängt alles an dir — dein Umsatz, deine Kunden, "
+            "deine Abschlüsse. Fällst du aus, fällt alles aus.",
+            " ",
+            "Bei iad hast du die Möglichkeit, ein eigenes Team aufzubauen und "
+            "an deren Umsatz beteiligt zu sein. Das ist keine Theorie — das ist "
+            "das Modell, das aus Maklern Unternehmer macht.",
+            " ",
+            "69 % Provision aus eigenen Abschlüssen. Plus Beteiligung am Team. "
+            "Das ist skalierbar.",
+        ],
+        "cta": "Schreib mir SKALIERUNG in die DMs.",
+        "keyword": "SKALIERUNG",
+    },
+    {
+        "num": "V21",
+        "titel": "Der Unterschied zwischen gut und gut aufgestellt",
+        "hook": "Du bist ein guter Makler. Aber arbeitest du auch mit den richtigen Rahmenbedingungen?",
+        "einsprech": (
+            "Können und Konditionen — beides zählt. Viele exzellente Makler "
+            "arbeiten mit Strukturen, die ihre Ergebnisse deckeln. Das ist kein "
+            "Versagen. Das ist das falsche System."
+        ),
+        "caption": [
+            "Es gibt Makler, die hervorragend sind — und trotzdem nicht das "
+            "rausholen, was sie könnten.",
+            " ",
+            "Nicht weil sie nicht gut genug arbeiten. Sondern weil die Strukturen, "
+            "in denen sie arbeiten, ihr Potenzial begrenzen.",
+            " ",
+            "69 % Provision statt 40–50 %. Internationales Netzwerk statt "
+            "Einzelkämpfer. Eigenes Team statt alles allein.",
+            " ",
+            "Du bringst das Können. Ich zeige dir das System, das dazu passt.",
+        ],
+        "cta": "Schreib mir SYSTEM in die DMs.",
+        "keyword": "SYSTEM",
+    },
+    {
+        "num": "V22",
+        "titel": "Warum jetzt der richtige Zeitpunkt ist",
+        "hook": "Der Markt verändert sich. Dein Einstiegsfenster auch.",
+        "einsprech": (
+            "Makler, die jetzt die Weichen stellen, werden in zwei Jahren mit "
+            "aufgebautem Team, stabilem Netzwerk und klarer Positionierung "
+            "dastehen. Wer wartet, wartet länger als geplant."
+        ),
+        "caption": [
+            "Es gibt nie den perfekten Zeitpunkt. Aber es gibt bessere und schlechtere.",
+            " ",
+            "Der Immobilienmarkt ist im Wandel. Digitalisierung, internationale "
+            "Käufer, veränderte Käuferprofile — wer jetzt die richtigen Strukturen "
+            "aufbaut, ist in zwei Jahren anders aufgestellt als alle, die "
+            "abgewartet haben.",
+            " ",
+            "Bei iad bist du Teil eines der größten Immobilienunternehmen weltweit "
+            "— mit 69 % Provision, internationalem Netzwerk und der Möglichkeit, "
+            "ein eigenes Team aufzubauen.",
+            " ",
+            "Der Zeitpunkt ist jetzt. Nicht irgendwann.",
+        ],
+        "cta": "Schreib mir JETZT in die DMs.",
+        "keyword": "JETZT",
+    },
+    {
         "num": "V16",
         "titel": "Was willst du in 3 Jahren anders machen?",
         "hook": "Was willst du in 3 Jahren anders machen als heute?",
