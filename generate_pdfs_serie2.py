@@ -543,6 +543,170 @@ VIDEOS = [
         "keyword": "JETZT",
     },
     {
+        "num": "V23",
+        "titel": "Immobilienberuf und Familie — wie das wirklich funktioniert",
+        "hook": "Wie machst du das eigentlich — mit Familie?",
+        "einsprech": (
+            "Ich kenne die Frage. Kein fixer Bürostart, keine Pflichtzeiten, "
+            "keine Anwesenheitspflicht. Mein Job passt sich meinem Leben an "
+            "— nicht andersherum. Das ist bei iad kein Versprechen, das ist der Alltag."
+        ),
+        "caption": [
+            "Die ehrliche Antwort auf eine Frage, die viele stellen, aber "
+            "kaum jemand offen beantwortet.",
+            " ",
+            "Als iad-Berater gibt es keinen Bürozwang, keine Pflichtzeiten, "
+            "keine Anwesenheitspflicht. Du entscheidest, wann du arbeitest "
+            "— und wann nicht.",
+            " ",
+            "Kinderarzttermin am Dienstagvormittag? Schulaufführung am Donnerstag? "
+            "Das bestimmst du.",
+            " ",
+            "Das macht vollständige Selbstständigkeit erst wirklich wertvoll "
+            "— nicht die Provision allein.",
+            " ",
+            "Wenn dich das anspricht:",
+        ],
+        "cta": "Schreib mir FAMILIE in die DMs.",
+        "keyword": "FAMILIE",
+    },
+    {
+        "num": "V24",
+        "titel": "Wie kommen deine Leads — oder gehst du jedem hinterher?",
+        "hook": "Wie kommen deine Leads zu dir — oder gehst du noch jedem einzeln hinterher?",
+        "einsprech": (
+            "Bei iad hast du Zugang zu digitalen Tools und KI-gestützten Prozessen, "
+            "die dir Akquise-Arbeit abnehmen. Mehr Zeit für echte Gespräche. "
+            "Weniger Zeit für manuelle Kaltakquise."
+        ),
+        "caption": [
+            "Viele Makler verbringen einen Großteil ihrer Zeit mit Akquise, "
+            "die kaum Ergebnisse bringt.",
+            " ",
+            "Bei iad hast du Zugang zu einer digitalen Plattform und "
+            "KI-gestützten Tools, die Leads generieren, qualifizieren und "
+            "vorbereiten — bevor du das erste Gespräch führst.",
+            " ",
+            "Das bedeutet: Du sprichst mit Menschen, die bereits Interesse haben. "
+            "Nicht mit Fremden, die du kalt anrufst.",
+            " ",
+            "Weniger Reibung. Mehr Abschlüsse.",
+            " ",
+            "Ich zeige dir, wie das konkret aussieht.",
+        ],
+        "cta": "Schreib mir LEADS in die DMs.",
+        "keyword": "LEADS",
+    },
+    {
+        "num": "V25",
+        "titel": "Von Franchise zu iad — was sich wirklich ändert",
+        "hook": "Du zahlst Franchisegebühren. Weißt du genau, was du dafür bekommst?",
+        "einsprech": (
+            "Viele Makler kommen von Franchise-Systemen zu iad. Nicht weil das "
+            "System schlecht war — sondern weil sie gemerkt haben, dass sie "
+            "dasselbe, oder mehr, für deutlich weniger Kosten bekommen können."
+        ),
+        "caption": [
+            "Franchise-Systeme haben ihren Wert. Aber sie haben auch ihren Preis.",
+            " ",
+            "Viele erfahrene Makler, die von großen Franchise-Marken zu iad "
+            "wechseln, stellen fest: Sie bekommen Netzwerk, Marke, Tools und "
+            "Support — ohne die laufenden Franchisegebühren und "
+            "Umsatzbeteiligungen nach oben.",
+            " ",
+            "69 % Provision. Internationales Netzwerk mit 20.000+ Beratern. "
+            "Vollständige Selbstständigkeit.",
+            " ",
+            "Kein Franchise-Vertrag, der dir Vorschriften macht.",
+            " ",
+            "Wenn du aus einem Franchise-System kommst und wissen willst, "
+            "was der Unterschied konkret bedeutet:",
+        ],
+        "cta": "Schreib mir FRANCHISE in die DMs.",
+        "keyword": "FRANCHISE",
+    },
+    {
+        "num": "V26",
+        "titel": "Was iad dir an Weiterbildung wirklich mitgibt",
+        "hook": "Was bringt dir iad — außer der höheren Provision?",
+        "einsprech": (
+            "Zugang zu Trainings, internationalen Best Practices, internen "
+            "Wissensnetzwerken — und ein Mentor, der selbst aktiver Berater ist. "
+            "Das ist Weiterbildung, die echten Unterschied macht. Kein Pflichtprogramm."
+        ),
+        "caption": [
+            "Die Provision ist ein Argument. Aber nicht das einzige.",
+            " ",
+            "Als iad-Berater hast du Zugang zu einem internationalen "
+            "Wissensnetzwerk — Best Practices aus Deutschland, Frankreich, "
+            "Spanien, Portugal und weiteren Märkten. Du lernst, was in anderen "
+            "Ländern bereits funktioniert, bevor es in deinem Markt ankommt.",
+            " ",
+            "Dazu kommt ein persönlicher Mentor — kein Trainer, der Kurse abhält, "
+            "sondern jemand, der selbst aktiv vermittelt und weiß, wie der Markt "
+            "gerade wirklich aussieht.",
+            " ",
+            "Das ist der Unterschied zwischen Weiterbildung auf dem Papier "
+            "und Weiterbildung, die zählt.",
+        ],
+        "cta": "Schreib mir TRAINING in die DMs.",
+        "keyword": "TRAINING",
+    },
+    {
+        "num": "V27",
+        "titel": "69 % vs. was du gerade behältst",
+        "hook": "69 % Provision. Wie viel behältst du gerade?",
+        "einsprech": (
+            "Das ist keine Marketing-Aussage. Das sind konkrete Zahlen. "
+            "Wenn du bei 50 % bist und 10 Deals im Monat machst, weißt du "
+            "was 19 % mehr bedeuten. Ich rechne das gerne mit dir durch."
+        ),
+        "caption": [
+            "Mach die Rechnung.",
+            " ",
+            "Angenommen du machst 10 Deals im Monat. Durchschnittliche Provision "
+            "pro Deal: 8.000 EUR. Du behältst aktuell 50 %.",
+            " ",
+            "Das sind 40.000 EUR monatlich bei dir.",
+            " ",
+            "Bei iad mit 69 %: 55.200 EUR — also 15.200 EUR mehr im Monat. "
+            "Aus denselben Abschlüssen.",
+            " ",
+            "Das ist kein Versprechen. Das ist Mathematik.",
+            " ",
+            "Ich rechne das mit deinen echten Zahlen durch.",
+        ],
+        "cta": "Schreib mir VERGLEICH in die DMs.",
+        "keyword": "VERGLEICH",
+    },
+    {
+        "num": "V28",
+        "titel": "Was ich Maklerinnen sage, die fragen",
+        "hook": "Ich bekomme zunehmend Anfragen von Maklerinnen. Das sind ihre Fragen.",
+        "einsprech": (
+            "Wie vereinbare ich Kunden mit Familie? Wie baue ich als Frau in "
+            "dieser Branche Vertrauen auf? Und was bedeutet vollständige "
+            "Selbstständigkeit konkret? Diese Gespräche führe ich gerne "
+            "— offen und ohne Floskeln."
+        ),
+        "caption": [
+            "In den letzten Monaten kommen zunehmend Anfragen von erfahrenen Maklerinnen.",
+            " ",
+            "Ihre Fragen unterscheiden sich manchmal — aber die Konditionen nicht.",
+            " ",
+            "69 % Provision. Vollständige Selbstständigkeit. Internationales "
+            "Netzwerk. Eigenes Team aufbauen. Das gilt für jeden Berater bei iad.",
+            " ",
+            "Was ich in diesen Gesprächen erlebe: Maklerinnen mit Erfahrung "
+            "wissen genau, was sie können. Sie brauchen keine Überzeugungsarbeit "
+            "— sie brauchen die richtigen Rahmenbedingungen.",
+            " ",
+            "Wenn du diese Fragen hast:",
+        ],
+        "cta": "Schreib mir MAKLERIN in die DMs.",
+        "keyword": "MAKLERIN",
+    },
+    {
         "num": "V16",
         "titel": "Was willst du in 3 Jahren anders machen?",
         "hook": "Was willst du in 3 Jahren anders machen als heute?",

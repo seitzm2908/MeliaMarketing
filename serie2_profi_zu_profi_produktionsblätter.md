@@ -799,3 +799,208 @@ Schreib mir JETZT in die DMs.
 
 **HASHTAGS:**
 #Jetzt #iadDeutschland #Immobilienmakler #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Markt #Timing #MarkusSeitz #SelbstständigMitPlan #Immobilien #Wachstum #Zukunft
+
+---
+
+# ERWEITERUNG SERIE 2 — VIDEOS 23–28
+
+---
+
+# VIDEO 23 — „Immobilienberuf und Familie — wie das wirklich funktioniert"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Wie machst du das eigentlich — mit Familie?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Ich kenne die Frage. Kein fixer Bürostart, keine Pflichtzeiten, keine Anwesenheitspflicht. Mein Job passt sich meinem Leben an — nicht andersherum. Das ist bei iad kein Versprechen, das ist der Alltag.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „Wie machst du das — mit Familie?" | BOLD WEISS, groß |
+| 18–22 | „Kein Bürostart. Keine Pflichtzeiten." | GOLD |
+| 32–36 | „Dein Job passt sich deinem Leben an." | BOLD WEISS |
+| 48–52 | „Nicht andersherum." | GOLD, groß |
+| 64–68 | „Schreib mir FAMILIE in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Die ehrliche Antwort auf eine Frage, die viele stellen, aber kaum jemand offen beantwortet.
+
+Als iad-Berater gibt es keinen Bürozwang, keine Pflichtzeiten, keine Anwesenheitspflicht. Du entscheidest, wann du arbeitest — und wann nicht.
+
+Kinderarzttermin am Dienstagvormittag? Schulaufführung am Donnerstag? Das bestimmst du.
+
+Das macht vollständige Selbstständigkeit erst wirklich wertvoll — nicht die Provision allein.
+
+Wenn dich das anspricht: Schreib mir FAMILIE in die DMs.
+
+**HASHTAGS:**
+#Familie #iadDeutschland #Immobilienmakler #WorkLifeBalance #Homeoffice #Selbstständig #Profi #MaklerWechsel #Karriere #ImmobilienKarriere #Flexibilität #MarkusSeitz #SelbstständigMitPlan #Immobilien #Freiheit
+
+---
+
+# VIDEO 24 — „Wie kommen deine Leads — oder gehst du jedem hinterher?"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Wie kommen deine Leads zu dir — oder gehst du noch jedem einzeln hinterher?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Bei iad hast du Zugang zu digitalen Tools und KI-gestützten Prozessen, die dir Akquise-Arbeit abnehmen. Mehr Zeit für echte Gespräche. Weniger Zeit für manuelle Kaltakquise.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–5 | „Gehst du noch jedem Lead einzeln hinterher?" | BOLD WEISS |
+| 18–22 | „Digitale Tools. KI-gestützte Akquise." | GOLD, Aufzählung |
+| 34–38 | „Mehr echte Gespräche." | BOLD WEISS, groß |
+| 48–52 | „Weniger manuelle Kaltakquise." | Weiß |
+| 64–68 | „Schreib mir LEADS in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Viele Makler verbringen einen Großteil ihrer Zeit mit Akquise, die kaum Ergebnisse bringt.
+
+Bei iad hast du Zugang zu einer digitalen Plattform und KI-gestützten Tools, die Leads generieren, qualifizieren und vorbereiten — bevor du das erste Gespräch führst.
+
+Das bedeutet: Du sprichst mit Menschen, die bereits Interesse haben. Nicht mit Fremden, die du kalt anrufst.
+
+Weniger Reibung. Mehr Abschlüsse.
+
+Schreib mir LEADS in die DMs — ich zeige dir, wie das konkret aussieht.
+
+**HASHTAGS:**
+#Leads #iadDeutschland #Immobilienmakler #Digitalisierung #KI #Akquise #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Tools #MarkusSeitz #SelbstständigMitPlan #Immobilien
+
+---
+
+# VIDEO 25 — „Von Franchise zu iad — was sich wirklich ändert"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Du zahlst Franchisegebühren. Weißt du genau, was du dafür bekommst?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Viele Makler kommen von Franchise-Systemen zu iad. Nicht weil das System schlecht war — sondern weil sie gemerkt haben, dass sie dasselbe, oder mehr, für deutlich weniger Kosten bekommen können.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–5 | „Du zahlst Franchisegebühren." | BOLD WEISS, groß |
+| 5–8 | „Was bekommst du dafür wirklich?" | Weiß |
+| 20–24 | „Netzwerk. Tools. Marke. Support." | GOLD, Aufzählung |
+| 40–44 | „Bei iad — ohne Franchisekosten." | BOLD WEISS |
+| 64–68 | „Schreib mir FRANCHISE in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Franchise-Systeme haben ihren Wert. Aber sie haben auch ihren Preis.
+
+Viele erfahrene Makler, die von großen Franchise-Marken zu iad wechseln, stellen fest: Sie bekommen Netzwerk, Marke, Tools und Support — ohne die laufenden Franchisegebühren und Umsatzbeteiligungen nach oben.
+
+69 % Provision. Internationales Netzwerk mit 20.000+ Beratern. Vollständige Selbstständigkeit.
+
+Kein Franchise-Vertrag, der dir Vorschriften macht.
+
+Wenn du aus einem Franchise-System kommst und wissen willst, was der Unterschied konkret bedeutet: Schreib mir FRANCHISE in die DMs.
+
+**HASHTAGS:**
+#Franchise #iadDeutschland #Immobilienmakler #MaklerWechsel #Provision #Profi #Karriere #Selbstständig #ImmobilienKarriere #Netzwerk #MarkusSeitz #SelbstständigMitPlan #Immobilien #Freiheit #Wachstum
+
+---
+
+# VIDEO 26 — „Was iad dir an Weiterbildung wirklich mitgibt"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Was bringt dir iad — außer der höheren Provision?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Zugang zu Trainings, internationalen Best Practices, internen Wissensnetzwerken — und ein Mentor, der selbst aktiver Berater ist. Das ist Weiterbildung, die echten Unterschied macht. Kein Pflichtprogramm.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–4 | „Was bringt dir iad außer Provision?" | BOLD WEISS |
+| 18–22 | „Trainings. Netzwerk. Best Practices." | GOLD, Aufzählung |
+| 32–36 | „Mentor — aktiver Berater, kein Trainer." | Weiß, kursiv |
+| 48–52 | „Weiterbildung, die echten Unterschied macht." | BOLD WEISS |
+| 64–68 | „Schreib mir TRAINING in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Die Provision ist ein Argument. Aber nicht das einzige.
+
+Als iad-Berater hast du Zugang zu einem internationalen Wissensnetzwerk — Best Practices aus Deutschland, Frankreich, Spanien, Portugal und weiteren Märkten. Du lernst, was in anderen Ländern bereits funktioniert, bevor es in deinem Markt ankommt.
+
+Dazu kommt ein persönlicher Mentor — kein Trainer, der Kurse abhält, sondern jemand, der selbst aktiv vermittelt und weiß, wie der Markt gerade wirklich aussieht.
+
+Das ist der Unterschied zwischen Weiterbildung auf dem Papier und Weiterbildung, die zählt.
+
+Schreib mir TRAINING in die DMs.
+
+**HASHTAGS:**
+#Training #iadDeutschland #Immobilienmakler #Weiterbildung #Mentor #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Netzwerk #MarkusSeitz #SelbstständigMitPlan #Immobilien #Wissen
+
+---
+
+# VIDEO 27 — „69 % vs. was du gerade behältst"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „69 % Provision. Wie viel behältst du gerade?"
+
+**VOICEOVER (ca. 10 Sek.):**
+Das ist keine Marketing-Aussage. Das sind konkrete Zahlen. Wenn du bei 50 % bist und 10 Deals im Monat machst, weißt du was 19 % mehr bedeuten. Ich rechne das gerne mit dir durch.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–3 | „69 % Provision." | GOLD, sehr groß |
+| 3–6 | „Wie viel behältst du gerade?" | BOLD WEISS |
+| 18–22 | „10 Deals × 19 % mehr = ?" | GOLD, groß |
+| 36–40 | „Keine Marketing-Aussage." | Weiß |
+| 40–44 | „Konkrete Zahlen." | BOLD WEISS |
+| 64–68 | „Schreib mir VERGLEICH in die DMs." | Weiß, klein |
+
+**CAPTION:**
+Mach die Rechnung.
+
+Angenommen du machst 10 Deals im Monat. Durchschnittliche Provision pro Deal: 8.000 €. Du behältst aktuell 50 %.
+
+Das sind 40.000 € monatlich bei dir.
+
+Bei iad mit 69 %: 55.200 € — also 15.200 € mehr im Monat. Aus denselben Abschlüssen.
+
+Das ist kein Versprechen. Das ist Mathematik.
+
+Schreib mir VERGLEICH in die DMs — ich rechne das mit deinen echten Zahlen durch.
+
+**HASHTAGS:**
+#Vergleich #iadDeutschland #Immobilienmakler #Provision #Finanzen #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Rechner #MarkusSeitz #SelbstständigMitPlan #Immobilien #Wachstum
+
+---
+
+# VIDEO 28 — „Was ich Maklerinnen sage, die fragen"
+
+**HOOK (Text-Overlay, Frame 1 — BOLD WEISS, groß):**
+> „Ich bekomme zunehmend Anfragen von Maklerinnen. Das sind ihre Fragen."
+
+**VOICEOVER (ca. 10 Sek.):**
+Wie vereinbare ich Kunden mit Familie? Wie baue ich als Frau in dieser Branche Vertrauen auf? Und was bedeutet vollständige Selbstständigkeit konkret? Diese Gespräche führe ich gerne — offen und ohne Floskeln.
+
+**TEXT-OVERLAYS (Timing):**
+| Sekunde | Text | Stil |
+|---------|------|------|
+| 0–5 | „Zunehmend Anfragen von Maklerinnen." | BOLD WEISS |
+| 18–22 | „Familie. Vertrauen. Selbstständigkeit." | GOLD, Aufzählung |
+| 34–38 | „Echte Fragen. Echte Antworten." | BOLD WEISS |
+| 50–54 | „Kein Unterschied bei Provision oder Netzwerk." | Weiß, kursiv |
+| 64–68 | „Schreib mir MAKLERIN in die DMs." | Weiß, klein |
+
+**CAPTION:**
+In den letzten Monaten kommen zunehmend Anfragen von erfahrenen Maklerinnen.
+
+Ihre Fragen unterscheiden sich manchmal — aber die Konditionen nicht.
+
+69 % Provision. Vollständige Selbstständigkeit. Internationales Netzwerk. Eigenes Team aufbauen. Das gilt für jeden Berater bei iad — unabhängig davon, wer du bist.
+
+Was ich in diesen Gesprächen erlebe: Maklerinnen mit Erfahrung wissen genau, was sie können. Sie brauchen keine Überzeugungsarbeit — sie brauchen die richtigen Rahmenbedingungen.
+
+Wenn du diese Fragen hast: Schreib mir MAKLERIN in die DMs.
+
+**HASHTAGS:**
+#Maklerin #iadDeutschland #Immobilienmakler #Frauen #Profi #MaklerWechsel #Karriere #Selbstständig #ImmobilienKarriere #Provision #MarkusSeitz #SelbstständigMitPlan #Immobilien #Netzwerk #Empowerment
