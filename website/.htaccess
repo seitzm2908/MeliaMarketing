@@ -1,9 +1,0 @@
-# Eine einzige Adresse für Google: alles auf https://www. umleiten (301)
-RewriteEngine On
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ https://www.markus-seitz.immobilien/$1 [R=301,L]
-
-# /index.html auf / umleiten, damit es keine doppelte Startseite gibt
-RewriteCond %{THE_REQUEST} \s/index\.html[\s?] [NC]
-RewriteRule ^index\.html$ https://www.markus-seitz.immobilien/ [R=301,L]
