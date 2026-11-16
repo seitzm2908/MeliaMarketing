@@ -33,6 +33,9 @@ footer .own{margin-top:6px}
  .hero.solo .radar{left:50%;top:76%}
  .hero.solo .owner{left:6%;right:6%;width:auto}
  .hero.solo .owner p.t{display:block;font-size:15px}
+ .hero.solo .pt{width:min(72vw,300px)}
+ .hero.solo .nm{width:86%}
+ .hero.solo .nm small{white-space:nowrap;font-size:10.5px;line-height:1.45}
 }
 </style>
 """
@@ -65,6 +68,9 @@ welt = re.sub(r'<div class="obtns">.*?</div>\s*', '', welt, count=1, flags=re.S)
 welt = re.sub(r'<div class="in" style="min-height:0;padding-bottom:36px">\s*</div>\s*', '', welt, count=1)
 assert 'padding-bottom:36px' not in welt
 hero = hero.replace(' aria-label="Porträt von Markus Seitz, ziehen verschiebt die Naht"', ' aria-label="Porträt von Markus Seitz"')
+NM_OLD = "<small>Head of Constellation<br>Certified Trainer<br>Teamleader Platin Associate</small>"
+assert NM_OLD in hero
+hero = hero.replace(NM_OLD, "<small>Immobilienberater<br>Villen, Häuser, Eigentumswohnungen<br>Renditeobjekte, Kapitalanlagen</small>", 1)
 assert "data-dive" not in hero and "world-team" not in hero and "col team" not in hero
 
 fs = src.index("<footer"); fe = src.index("</footer>", fs) + 9
