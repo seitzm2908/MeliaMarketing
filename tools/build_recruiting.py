@@ -68,7 +68,7 @@ for out, (src, t, d) in pages.items():
     (OUT / out).write_text(s, encoding="utf-8")
 
 # --- Startseite: Team-Hälfte der bisherigen Startseite ------------------------
-src = (SRC / "index.html").read_text(encoding="utf-8")
+src = pathlib.Path("quellen/doppelseite.html").read_text(encoding="utf-8")
 head = src[: src.index("</head>")]
 head = re.sub(r'<script type="application/ld\+json">.*?</script>', "", head, flags=re.S)
 head = meta(head, "Selbstständig als Immobilienmakler – mit Plan | Markus Seitz",
