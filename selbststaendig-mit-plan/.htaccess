@@ -1,0 +1,5 @@
+# Eine Adresse für Google: alles auf https://www. umleiten (301)
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.xn--selbststndig-mit-plan-d2b.de/$1 [R=301,L]
