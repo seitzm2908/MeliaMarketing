@@ -67,79 +67,102 @@ for out, (src, t, d) in pages.items():
     s = fix_css(fix_links(track_meetup(meta(s, t, d, out))))
     (OUT / out).write_text(s, encoding="utf-8")
 
-# --- Startseite --------------------------------------------------------------
-tpl = (SRC / "team-start.html").read_text(encoding="utf-8")
-head = tpl[: tpl.index("</head>")]
+# --- Startseite: Team-Hälfte der bisherigen Startseite ------------------------
+src = (SRC / "index.html").read_text(encoding="utf-8")
+head = src[: src.index("</head>")]
+head = re.sub(r'<script type="application/ld\+json">.*?</script>', "", head, flags=re.S)
 head = meta(head, "Selbstständig als Immobilienmakler – mit Plan | Markus Seitz",
             "Selbstständig als Immobilienmakler, aber nicht allein: 69 Prozent ab dem ersten Euro, Mentor, Backoffice und ein klarer Plan. Lerne das Modell im Meetup kennen.", "")
-head = head.replace(f'href="{NEW}/"', f'href="{NEW}/"')
-extra_css = """<style>
-.cards5{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
-.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 26px}.chips span{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border-radius:999px;border:2px solid #CDEFFB;font:600 14px/1 Montserrat;color:#003A55;background:#F5FBFE}.chips span.rab{border-color:#F6C9C3;background:#FFF6F5}
-h3.sub{margin:0 0 12px;font:italic 700 18px/1.3 Montserrat;color:var(--blue)}
-.paths{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
-.pth{padding:30px 28px;border-radius:30px;border:2px solid #CDEFFB;display:flex;flex-direction:column;gap:12px;align-items:flex-start}
-.pth .no{font:800 15px/1 Montserrat;color:var(--coral)}.pth h3{margin:0;font:italic 700 22px/1.25 Montserrat;color:var(--blue)}.pth p{margin:0 0 6px}
-.from{font-size:14px;margin:26px 0 0}.from a{color:#006390;font-weight:600}
-@media(max-width:800px){.cards5,.paths{grid-template-columns:1fr}}
+solo_css = """<style>
+.hero.solo{--s:0;--p:29;background:#fff;cursor:default}
+.hero.solo .world-team{-webkit-mask-image:none!important;mask-image:none!important}
+.hero.solo .brand span{color:var(--navy,#0E2339)}
+.hero.solo .pt{cursor:default}
+.hero.solo .team{right:5%;width:42%}
+.hero.solo .team h1 em{font-style:italic;color:var(--coral)}
+.dive.solo-welt{position:relative;inset:auto;clip-path:none!important;visibility:visible!important;overflow:visible;z-index:1;transition:none}
+.solo-welt .in{padding-top:72px;min-height:0}
+.mtp{margin:46px 0 10px;padding:34px 30px;border-radius:30px;background:linear-gradient(160deg,#F3FBFF,#DFF3FB)}
+.mtp h3{margin:0 0 10px;font:italic 700 clamp(24px,2.6vw,34px)/1.2 Montserrat;color:var(--blue)}
+.mtp p{margin:0 0 20px;max-width:56ch}
+.mtp .row{display:flex;flex-wrap:wrap;gap:12px}
+.mtp .pill.o{background:#fff;color:#000;border:2px solid var(--blue)}
+footer .own{margin-top:6px}
+@media (max-width:800px){
+ .hero.solo{--p:29;height:900px}
+ .hero.solo .team{left:6%;right:6%;width:auto;bottom:60px}
+ .mtp{padding:26px 22px}
+}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Selbstständig mit Plan","url":"%s/","publisher":{"@type":"Person","name":"Markus Seitz","jobTitle":"Immobilienmakler, Teamleader iad Deutschland","url":"%s/","sameAs":["%s/"]}}</script>
-""" % (NEW, NEW, MAIN)
-body_start = tpl.index("<body>")
-header = tpl[body_start: tpl.index("</header>") + 9]
-header = header.replace('<a class="bk" href="index.html">Startseite</a>', '<a class="bk fw" href="#meetup-anmeldung">Zum Meetup</a>')
-cta_block = tpl[tpl.index('<section class="cta rv">'): tpl.index("<footer")]
-footer = tpl[tpl.index("<footer"): tpl.index("</footer>") + 9]
-reveal = re.search(r"<script>\s*\(function\(\)\{var reduce=.*?\}\)\(\);", tpl, re.S).group(0) + "\n</script>"
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Selbstständig mit Plan","url":"__NEW__/","publisher":{"@type":"Person","name":"Markus Seitz","jobTitle":"Immobilienmakler, Teamleader iad Deutschland","url":"__NEW__/","sameAs":["__MAIN__/"]}}</script>
+""".replace("__NEW__", NEW).replace("__MAIN__", MAIN)
 
-ICONS = [
- '<path d="M8 30 L32 10 L56 30"/><path d="M15 27 V53 H49 V27"/><path class="cx" d="M10 56 L54 12"/>',
- '<path d="M32 14 L58 26 L32 38 L6 26 Z"/><path d="M16 32 V44 C24 51 40 51 48 44 V32"/><path class="cx" d="M58 26 V42"/>',
- '<path d="M12 36 V30 C12 18 21 10 32 10 C43 10 52 18 52 30 V36"/><rect x="8" y="34" width="10" height="16" rx="5"/><rect x="46" y="34" width="10" height="16" rx="5"/><path class="cx" d="M52 50 C52 56 46 58 38 58"/>',
- '<path d="M32 8 V58"/><path d="M32 16 H50 L56 22 L50 28 H32"/><path d="M32 34 H14 L8 40 L14 46 H32"/><path class="cx" d="M24 58 H40"/>',
- '<rect x="8" y="12" width="48" height="32" rx="5"/><path d="M24 54 H40 M32 44 V54"/><path class="cx" d="M19 29 L27 37 L44 20"/>',
-]
-CARDS = [("Keine Geschäftsstelle", "Kein Büro, keine Büro- und IT-Pauschale. Du arbeitest dort, wo deine Kunden sind."),
-         ("Eigene iad Universität", "Fachwissen aufbauen mit Certified Trainern und einem nationalen Trainerteam."),
-         ("Dein Backoffice", "Eine fest zugeordnete Innendienstkraft unterstützt dich ab dem ersten Tag."),
-         ("Mentor und Marschroute", "Ich begleite dich mit einem klaren Plan für deine ersten sechs Monate."),
-         ("Dein Werkzeugkasten", "CRM, Bewertung, Video und Foto. Alles in einem Paket.")]
-cards = "".join(f'<div class="wc rv" style="--n:{i}"><div class="bdg"><svg viewBox="0 0 64 64" aria-hidden="true">{ICONS[i]}</svg></div><h3>{t}</h3><p>{p}</p></div>' for i, (t, p) in enumerate(CARDS))
-tools = "".join(f"<span>{x}</span>" for x in ["onOffice", "PriceHubble", "Momenzo", "Google Workspace", "Casafari", "DocuSign", "CARD.PM"])
-rab = "".join(f'<span class="rab">{x}</span>' for x in ["Finanzierung", "Versicherungen", "Immobilienmarktbeobachtung"])
+hs = src.index('<section class="hero"'); he = src.index("</section>", src.index('<div class="dive d-team"')) + 10
+hero = src[hs:he]
+def cut(h, start, end_marker=None):
+    i = h.index(start)
+    if end_marker:
+        j = h.index(end_marker, i) + len(end_marker)
+    else:  # balanced <div>
+        depth = 0
+        for m in re.finditer(r"<(/?)div\b[^>]*>", h[i:]):
+            depth += -1 if m.group(1) else 1
+            if depth == 0:
+                j = i + m.end(); break
+    return h[:i] + h[j:]
+hero = cut(hero, '<div class="layer world-owner"')
+hero = cut(hero, '<div class="seam"', "</div>")
+hero = cut(hero, '<div class="spot"', "</div>")
+hero = cut(hero, '<div class="col owner"')
+hero = cut(hero, '<div class="hint"', "</div>")
+hero = cut(hero, "<!-- Eintauchen: Eigentümer-Welt -->", "-->")
+hero = cut(hero, '<div class="dive d-owner"')
+# Team-Welt aus dem Overlay lösen und als eigenen Abschnitt hinter den Hero stellen
+ti = hero.index("<!-- Eintauchen: Team-Welt -->")
+welt = hero[ti:hero.rindex("</section>")]
+hero = hero[:ti] + "</section>\n"
+welt = welt.replace('<div class="dive d-team" id="dvT" role="dialog" aria-label="Team-Welt" aria-hidden="true">',
+                    '<section class="dive d-team solo-welt" id="dvT" aria-label="Team-Welt">', 1)
+welt = welt.replace('<button class="back" data-close>Zurück</button>', "", 1)
+for dup in ['<p class="lbl-t">Ich will einsteigen</p>', '<h2>Komm in mein <em>Team.</em></h2>', '<p class="claim">Klarer Rahmen, persönliche Begleitung, offene Zahlen.</p>']:
+    assert dup in welt, dup
+    welt = welt.replace(dup, "", 1)
+welt = welt[: welt.rindex("</div>")] + "</section>\n"
+hero = hero.replace('<section class="hero" id="hero"', '<section class="hero solo" id="hero"', 1)
+hero = hero.replace('aria-label="Startseite Markus Seitz Immobilien"', 'aria-label="Selbstständig mit Plan"')
+hero = hero.replace('<div class="chip">Markus Seitz Immobilien. Mit iad.</div>', '<div class="chip">Selbstständig mit Plan. Mit iad.</div>')
+hero = hero.replace('<a class="brand" href="#">', '<a class="brand" href="index.html">')
+hero = hero.replace('<h2><span class="w"><i style="--d:.8s">Komm', '<h1 style="margin:0 0 14px;font:800 clamp(40px,4vw,66px)/.98 Montserrat;letter-spacing:-.025em;color:var(--blue)"><span class="w"><i style="--d:.8s">Komm', 1)
+hero = re.sub(r'(<i style="--d:1\.08s">Team\.</i></span></em>)</h2>', r"\1</h1>", hero, count=1)
+hero = hero.replace('<button class="zug fi" style="--d:1.45s" data-dive="team"><strong>Du bist Makler und überlegst zu wechseln?</strong><span class="pill">Ehrlich durchrechnen</span></button>',
+                    '<a class="zug fi" style="--d:1.45s;text-decoration:none" href="wechsel.html"><strong>Du bist Makler und überlegst zu wechseln?</strong><span class="pill">Ehrlich durchrechnen</span></a>')
+hero = hero.replace('<button class="zug fi" style="--d:1.6s" data-dive="team"><strong>Deine Ausbildung ist fast fertig? Und jetzt?</strong><span class="pill">Meinen Start planen</span></button>',
+                    '<a class="zug fi" style="--d:1.6s;text-decoration:none" href="start.html"><strong>Deine Ausbildung ist fast fertig? Und jetzt?</strong><span class="pill">Meinen Start planen</span></a>')
+assert 'data-dive' not in hero and "world-owner" not in hero, "Hero nicht sauber getrennt"
+mtp = f"""   <div class="mtp"><h3>Lerne das Modell im Meetup kennen.</h3><p>Alle zwei Wochen donnerstags um 18 Uhr, online per Google Meet. Unverbindlich, mit deinen Fragen.</p><div class="row"><a class="pill" style="text-decoration:none" href="start.html#meetup-anmeldung">Zum Meetup anmelden</a><a class="pill o" style="text-decoration:none" href="{WA}" target="_blank" rel="noopener">Per WhatsApp schreiben</a></div></div>
+   <p class="fine">"""
+welt = welt.replace('   <p class="fine">', mtp, 1)
 
-main = f"""
-<section class="hero wrap"><div class="caps" aria-hidden="true"><i></i><i></i><i></i></div>
-<p class="lbl">Für Makler und alle, die es werden wollen</p>
-<h1>Selbstständig.<br><em>Mit Plan.</em></h1>
-<p class="claim">Klarer Rahmen, persönliche Begleitung, offene Zahlen.</p>
-<div class="btns" style="margin-top:28px"><a class="pill" href="#meetup-anmeldung">Zum Meetup anmelden</a><a class="pill o" href="#wege">Welcher Weg passt zu mir?</a></div>
-</section>
-<section class="wrap">
-<div class="price rv"><div class="num">69<sup>%</sup></div><p>ab dem ersten Euro. Vom ersten Tag an, so wie iad es in Deutschland vergütet.</p></div>
-<div class="sep"></div>
-<h2 class="rv">Das bekommst du bei mir.</h2>
-<div class="cards5">{cards}</div>
-<div class="sep"></div>
-<h3 class="sub rv">Im Beitrag enthalten</h3><div class="chips rv">{tools}</div>
-<h3 class="sub rv">Mit Mengenrabatt über das Netzwerk</h3><div class="chips rv">{rab}</div>
-<div class="sep"></div>
-<h2 class="rv">Von Worms aus deutschlandweit.</h2>
-<p class="rv" style="max-width:60ch">Mein Team wächst über Regionen und Bundesländer hinweg. Dein Standort kann der nächste sein. Dein Ort fehlt noch? Schreib mir, wo du starten willst.</p>
-<div class="btns rv"><a class="pill o" href="https://wa.me/4917615858511?text=Hallo%20Markus%2C%20ich%20m%C3%B6chte%20in%20deinem%20Team%20starten.%20Mein%20Ort%3A%20" target="_blank" rel="noopener">Schreib mir</a></div>
-<div class="sep"></div>
-<h2 class="rv" id="wege">Welcher Weg passt zu dir?</h2>
-<div class="paths">
- <div class="pth rv" style="--n:0"><span class="no">01</span><h3>Du bist Makler und überlegst zu wechseln?</h3><p>Rechne mit deinen Zahlen. Im Meetup gemeinsam, ohne Verpflichtung.</p><a class="pill" href="wechsel.html">Ehrlich durchrechnen</a></div>
- <div class="pth rv" style="--n:1"><span class="no">02</span><h3>Deine Ausbildung ist fast fertig? Und jetzt?</h3><p>Selbstständig heißt nicht allein. Du startest in einem Team mit 14 Menschen.</p><a class="pill" href="start.html">Meinen Start planen</a></div>
-</div>
-<p class="fine">Selbstständige Tätigkeit auf Provisionsbasis, ohne Fixgehalt. Der Einstieg erfolgt über einen Handelsvertretervertrag mit der I@D Deutschland GmbH, Markus Seitz Immobilien ist dabei nicht Vertragspartner. Alle Angaben sind unverbindliche Informationen.</p>
-<p class="from">Du willst eine Immobilie verkaufen? Dann bist du hier richtig: <a href="{MAIN}/">markus-seitz.immobilien</a></p>
-<div class="sep"></div>
-</section>
-"""
-idx = head + extra_css + "</head>" + header + main + cta_block + footer + "\n" + reveal + "</body></html>"
-idx = fix_css(fix_links(track_meetup(idx)))
+fs = src.index("<footer"); fe = src.index("</footer>", fs) + 9
+footer = re.sub(r'<nav class="allorte".*?</nav>\s*', "", src[fs:fe], flags=re.S)
+footer = footer.replace("</footer>", f'<p class="own">Du willst eine Immobilie verkaufen? <a href="{MAIN}/">markus-seitz.immobilien</a></p>\n</footer>')
+
+script = """<script>
+(function(){
+var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+var w=document.getElementById('dvT'),n69=document.getElementById('n69');
+document.querySelectorAll('.dive .in').forEach(function(x){Array.prototype.forEach.call(x.children,function(c,i){c.style.setProperty('--i',i)})});
+function count(){if(!n69)return;if(reduce){n69.textContent='69';return}var st=performance.now()+600,dur=1500;n69.textContent='0';
+(function step(now){var k=Math.min(1,Math.max(0,(now-st)/dur));k=1-Math.pow(1-k,4);n69.textContent=Math.round(69*k);if(k<1)requestAnimationFrame(step)})(performance.now());}
+var els=w.querySelectorAll('.rv');
+if(reduce||!('IntersectionObserver' in window)){w.classList.add('on');els.forEach(function(e){e.classList.add('vis')});return}
+new IntersectionObserver(function(en,o){if(en[0].isIntersecting){w.classList.add('on');count();o.disconnect()}},{threshold:.05}).observe(w);
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('vis');io.unobserve(x.target)}})},{threshold:.2});
+els.forEach(function(e){io.observe(e)});
+})();
+</script>"""
+idx = head + solo_css + "</head><body>\n" + hero + welt + footer + "\n" + script + "\n</body></html>"
+idx = fix_links(track_meetup(idx))
 (OUT / "index.html").write_text(idx, encoding="utf-8")
 
 # --- Rechtliches -------------------------------------------------------------
